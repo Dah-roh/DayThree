@@ -1,7 +1,11 @@
 package org.example;
 
 import org.example.medical.entities.MedicalPersonnel;
+import org.example.medical.entities.Patient;
 import org.example.medical.enums.Role;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {

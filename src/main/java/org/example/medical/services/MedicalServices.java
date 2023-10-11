@@ -5,7 +5,7 @@ import org.example.medical.entities.Patient;
 
 public interface MedicalServices {
 
-    void discharge();
+    Patient discharge();
     void admit(Patient patient);
     void diagnosePatient(Patient patient, MedicalPersonnel doctor);
 }
